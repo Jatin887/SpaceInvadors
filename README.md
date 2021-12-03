@@ -38,4 +38,21 @@ The features of the game is as follows:
 # Gameplay
 Here is a short gameplay of the game 
 
+https://user-images.githubusercontent.com/71597104/144576208-a9535259-1454-43e6-8275-9753245f8e4b.mp4
+
+# Installation
+On windows:
+
+1. ensure that you have python and pip on your machine. If not, install it from here.
+2. clone the repo to a local directory or download it as zip and un-zip it.
+3. open windows command prompt (cmd) and enter the following commands:
+4. create a virtual environment py -m pip install --user virtualenv
+5. py -m venv env
+6. activate the virtual environment .\env\Scripts\activate
+7. install the game dependencies from the requirements.txt file using the command pip install -r requirements.txt
+8. navigate to main.py and launch the game using the command cd Space Invaders && python main.py
+
+you can skip creating a virtual environment if you wish and ignore steps 4-6 but it is not recommended.
+
+
 
